@@ -3,7 +3,7 @@
 Personalized News Digest is a .NET MVC web application that delivers personalized news recommendations and sentiment-aware article classification.
 Using Machine Learning, the system learns user preferences and classifies each article as Positive, Negative, or Neutral to improve the reading experience.
 
-🚀 Features
+#🚀 Features
 📰 Real-Time News Aggregation
 
 Fetches the latest news articles from APIs and organizes them into categories.
@@ -16,11 +16,11 @@ Learns user behavior and recommends news articles based on reading patterns.
 
 Each news article is automatically classified as:
 
-Positive
+-Positive
 
-Neutral
+-Neutral
 
-Negative
+-Negative
 
 📱 Responsive UI
 
@@ -30,7 +30,7 @@ Built using Bootstrap for a clean and mobile-friendly design.
 
 Separation of concerns using Controllers, Models, Views, and Services.
 
-📂 Project Structure
+#📂 Project Structure
 Personalized-News-Digest-Web-Application/
 ├── Controllers/
 ├── Models/
@@ -42,7 +42,7 @@ Personalized-News-Digest-Web-Application/
 ├── Program.cs
 └── Startup.cs
 
-🛠️ How to Run Locally
+#🛠️ How to Run Locally
 
 Install .NET SDK 6+
 
@@ -54,23 +54,19 @@ dotnet restore
 dotnet build
 dotnet run
 
-📚 Technologies Used
+#📚 Technologies Used
 
-ASP.NET Core MVC
+-ASP.NET Core MVC
+-C#
+-Machine Learning (Sentiment Analysis + User Preference Model)
+-Bootstrap / jQuery
+-REST API Integration
 
-C#
-
-Machine Learning (Sentiment Analysis + User Preference Model)
-
-Bootstrap / jQuery
-
-REST API Integration
-
-🤝 Contributing
+#🤝 Contributing
 
 Contributions are welcome!
 For major changes, please open an issue first to discuss what you'd like to improve.
 
-📜 License
+#📜 License
 
 This project is created for educational and portfolio use.
