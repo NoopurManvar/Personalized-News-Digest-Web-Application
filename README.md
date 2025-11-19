@@ -1,36 +1,35 @@
-# Personalized-News-Digest-Web-Application
+# 🌐 Personalized News Digest Web Application
 
-Personalized News Digest is a .NET MVC web application that delivers personalized news recommendations and sentiment-aware article classification.
-Using Machine Learning, the system learns user preferences and classifies each article as Positive, Negative, or Neutral to improve the reading experience.
+![App Logo](https://img.shields.io/badge/Personalized%20News%20Digest%20Web%20Application-0078D4?style=for-the-badge)
 
-#🚀 Features
-📰 Real-Time News Aggregation
+**Personalized News Digest** is a .NET MVC web application that delivers personalized news recommendations with sentiment-aware article classification.  
+Using Machine Learning (ML.NET), the system classifies articles as **Positive**, **Neutral**, or **Negative**, helping users consume news more efficiently.
 
-Fetches the latest news articles from APIs and organizes them into categories.
+---
 
-🤖 Machine Learning Personalization
+## 🚀 Features
 
-Learns user behavior and recommends news articles based on reading patterns.
+### 📰 Real-Time News Aggregation
+Fetches and displays the latest news articles from external APIs.
 
-😊 Sentiment Analysis
+### 🤖 Machine Learning Personalization
+Learns user reading behavior and recommends personalized news.
 
-Each news article is automatically classified as:
+### 😊 Sentiment Analysis
+Classifies each article's sentiment into:
+- Positive  
+- Neutral  
+- Negative  
 
--Positive
+### 📱 Responsive UI
+Built using **Bootstrap**, optimized for desktop and mobile.
 
--Neutral
+### 🧩 Clean MVC Architecture
+Organized into Controllers, Models, Views, Services, and Data layers.
 
--Negative
+---
 
-📱 Responsive UI
-
-Built using Bootstrap for a clean and mobile-friendly design.
-
-🧩 MVC Architecture
-
-Separation of concerns using Controllers, Models, Views, and Services.
-
-#📂 Project Structure
+## 📂 Project Structure
 Personalized-News-Digest-Web-Application/
 ├── Controllers/
 ├── Models/
@@ -42,31 +41,11 @@ Personalized-News-Digest-Web-Application/
 ├── Program.cs
 └── Startup.cs
 
-#🛠️ How to Run Locally
-
-Install .NET SDK 6+
-
-Open terminal in the project folder
-
-Run the following commands:
-
-dotnet restore
-dotnet build
-dotnet run
-
-#📚 Technologies Used
-
--ASP.NET Core MVC
--C#
--Machine Learning (Sentiment Analysis + User Preference Model)
--Bootstrap / jQuery
--REST API Integration
-
-#🤝 Contributing
-
-Contributions are welcome!
-For major changes, please open an issue first to discuss what you'd like to improve.
-
-#📜 License
-
-This project is created for educational and portfolio use.
+## 🛠️ How to Run Locally
+1. Install **.NET SDK 6 or higher**
+2. Open terminal in the project folder
+3. Run:
+    ```bash
+    dotnet restore
+    dotnet build
+    dotnet run
