@@ -31,14 +31,23 @@ Organized into Controllers, Models, Views, Services, and Data layers.
 
 ## 📂 Project Structure
 Personalized-News-Digest-Web-Application/
+
 ├── Controllers/
+
 ├── Models/
+
 ├── Views/
+
 ├── Services/
+
 ├── Data/
+
 ├── wwwroot/
+
 ├── appsettings.json
+
 ├── Program.cs
+
 └── Startup.cs
 
 ## 🛠️ How to Run Locally
@@ -49,3 +58,22 @@ Personalized-News-Digest-Web-Application/
     dotnet restore
     dotnet build
     dotnet run
+
+## 📚 Technologies Used
+- **ASP.NET Core MVC**
+- **C#**
+- **ML.NET** (Sentiment Analysis + Recommendation Model)
+- **Bootstrap / jQuery**
+- **REST API Integration**
+
+---
+
+## 🤝 Contributing
+Pull requests are welcome!  
+For major changes, please open an issue first to discuss the update.
+
+---
+
+## 📜 License
+This project is for **educational and portfolio use**.
+
